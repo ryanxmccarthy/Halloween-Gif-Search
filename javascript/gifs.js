@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 	generateButtons();
 
-	$('.animalButton').on('click', function() {
+	$(document).on('click', '.animalButton', function() {
 		$('#gifs').text('');
 		var animal = $(this).attr('data-animal');
 		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +

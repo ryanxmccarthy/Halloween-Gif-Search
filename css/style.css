@@ -1,0 +1,11 @@
+body {
+	background-color: black;
+}
+
+p {
+	color: grey;
+}
+
+.animalButton {
+	margin: 0 4px 10px;
+}
