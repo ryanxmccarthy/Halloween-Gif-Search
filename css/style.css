@@ -1,11 +1,25 @@
 body {
 	background-color: black;
+	margin: 0 10%;
 }
 
 p {
 	color: grey;
 }
 
+.gif {
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+
 .topicButton {
-	margin: 0 4px 10px;
+	margin: 0 4px 20px;
+}
+
+#gifs {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+#input {
+	padding: 0 4px 20px;
 }
