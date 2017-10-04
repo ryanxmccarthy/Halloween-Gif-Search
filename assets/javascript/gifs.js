@@ -1,4 +1,4 @@
-var topics = ['wolf', 'bear', 'crow', 'moose']
+var topics = ['werewolf', 'vampire', 'moon', 'bat', 'witch', 'owl', 'black cat', 'crow', 'ghost']
 
 $(document).ready(function() {
 	function generateButtons() {

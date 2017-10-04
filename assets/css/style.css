@@ -1,14 +1,20 @@
 body {
-	background-image: url('../images/cloth.jpg');
+	background-image: url('../images/halloween.jpg');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 	margin: 0 10%;
 }
 
 h1 {
-	color: white;
+	font-family: halloween;
+	color: #ea8b1e;
+	text-shadow: -2px 2px black;
 }
 
 p {
-	color: black;
+	color: #ea8b1e;
 }
 
 .gif {
@@ -17,7 +23,20 @@ p {
 }
 
 .topicButton {
+	font-family: halloween;
+	background-color: black;
+	color: #ea8b1e;
+	border: black;
 	margin: 0 4px 20px;
+	border-radius: 10px;
+}
+
+#animal {
+	background-color: black;
+	border: black;
+	color: #ea8b1e;
+	border-radius: 10px;
+	margin-bottom: 10px;
 }
 
 #gifs {
@@ -26,4 +45,13 @@ p {
 
 #input {
 	padding: 0 4px 20px;
+}
+
+#title {
+	margin-bottom: 15px;
+}
+
+@font-face {
+    font-family: halloween;
+    src: url(../fonts/halloween.ttf);
 }
