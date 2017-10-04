@@ -1,10 +1,14 @@
 body {
-	background-color: black;
+	background-image: url('../images/cloth.jpg');
 	margin: 0 10%;
 }
 
+h1 {
+	color: white;
+}
+
 p {
-	color: grey;
+	color: black;
 }
 
 .gif {
