@@ -1,4 +1,4 @@
-var topics = ['werewolf', 'vampire', 'moon', 'bat', 'witch', 'owl', 'black cat', 'crow', 'ghost']
+var topics = ['werewolf', 'vampire', 'moon', 'bat', 'witch', 'owl', 'black cat', 'crow', 'poltergeist']
 
 $(document).ready(function() {
 	function generateButtons() {
@@ -55,10 +55,14 @@ $(document).ready(function() {
 
 	//adds new topic button to page
 	$('#add').on('click', function() {
-		$('#buttons').empty()
-		var animal = $('#animal').val().trim()
-		topics.push(animal)
-		$('#animal').val('')
-		generateButtons();
+		if ($('#animal').val() === '') {
+			alert("Enter a topic")
+		} else {
+			$('#buttons').empty()
+			var animal = $('#animal').val().trim()
+			topics.push(animal)
+			$('#animal').val('')
+			generateButtons();
+		}
 	})
 })
