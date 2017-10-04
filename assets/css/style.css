@@ -39,6 +39,14 @@ p {
 	margin-bottom: 10px;
 }
 
+#add {
+	font-family: halloween;
+	background-color: black;
+	border: black;
+	color: #ea8b1e;
+	border-radius: 10px;
+}
+
 #gifs {
 	background-color: rgba(255, 255, 255, .2);
 }
