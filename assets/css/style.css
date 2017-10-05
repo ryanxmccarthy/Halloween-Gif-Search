@@ -33,7 +33,7 @@ p {
 	outline: none;
 }
 
-#animal {
+#topic {
 	background-color: black;
 	border: black;
 	color: #ea8b1e;
@@ -41,6 +41,7 @@ p {
 	margin-bottom: 10px;
 	box-shadow: -2px 2px 5px #ea8b1e;
 	outline: none;
+	text-align: center
 }
 
 #add {

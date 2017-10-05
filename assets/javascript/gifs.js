@@ -55,13 +55,13 @@ $(document).ready(function() {
 
 	//adds new topic button to page
 	$('#add').on('click', function() {
-		if ($('#animal').val() === '') {
+		if ($('#topic').val() === '') {
 			alert("Enter a topic")
 		} else {
 			$('#buttons').empty()
-			var animal = $('#animal').val().trim()
-			topics.push(animal)
-			$('#animal').val('')
+			var topic = $('#topic').val().trim()
+			topics.push(topic)
+			$('#topic').val('')
 			generateButtons();
 		}
 	})
